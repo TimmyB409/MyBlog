@@ -1,0 +1,19 @@
+body{
+    font-family: arial;
+    background-color: bisque;
+}
+
+h1{
+    color: rgb(106, 28, 0);
+}
+.no-choice{
+    visibility: hidden;
+}
+.good-choice{
+    color: green;
+    visibility: hidden;
+}
+.bad-choice{
+    color: red;
+    visibility: hidden;
+}
