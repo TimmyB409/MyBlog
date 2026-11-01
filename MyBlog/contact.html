@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="home.css">
+    <title>Contact</title>
+</head>
+<body>
+    <header class="site-init">
+        <div class="nav-bar" id="nav-bar">
+            <h1>Contact</h1>
+        </div>
+    </header>
+    <main class="container">
+        <h2>Contact</h2>
+        <h3>Send a new message</h3>
+        <form class="form-container">
+            <div class="input-control">
+                <label for="txtSubject">Subject</label>
+                <input type="text" placeholder="Add your subject" id="txtSubject" name="txtSubject" required>
+            </div>
+
+            <div class="input-control">
+                <label for="txtEmail">Email to:</label>
+                <input type="email" name="txtEmail" id="txtEmail">
+            </div>
+
+            <div class="input-control">
+                <label for="txtSender">Your Email:</label>
+                <select name="sender" id="txtSender">
+                    <option value="" selected disabled>-- Select an option --</option>
+                    <option value="sjimenez@sdgku.edu">sjimenez@sdgku.edu</option>
+                    <option value="lrenteria@sdgku.edu">lrenteria@sdgku.edu</option>
+                    <option value="info@sdgku.edu">info@sdgku.edu</option>
+                </select>
+            </div>
+
+            <div class="input-control">
+                <label for="txtMessage">Your Message:</label>
+                <textArea id="txtMessage" required></textArea>
+            </div>
+
+            <div class="btn-control">
+                <button type="submit">Send</button>
+            </div>
+        </form>
+    </main>
+</body>
+<script src="blog.js"></script>
+</html>

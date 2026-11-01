@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="forms.css">
+    <title>HTML Forms</title>
+</head>
+<body>
+    <div class="form-container">
+        <h1>Forms</h1>
+        <p>This is information the user will send</p>
+        <form>
+            <div class="input-container">
+                <label for="txtname">Name:</label>
+                <input type="text" placeholder="Enter your name" id="txtname" name="user_name">
+            </div>
+            <div class="input-container">
+                <label for="txtAge">Age:</label>
+                <input type="number" placeholder="Enter your age:" id="txtAge" name="user_age">
+            </div>
+            <div class="input-container">
+                <label for="txtPassword">Password:</label>
+                <input type="password" placeholder="Enter your password:" id="txtPassword" name="user_pass">
+            </div>
+            <div class="input-container">
+                <label for="txtArea">Message:</label>
+                <textarea placeholder="This is for long text!" id="txtArea"></textarea>
+            </div>
+            <button class="btn-send">Send</button>
+        </form>
+    </div>
+</body>
+</html>

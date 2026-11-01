@@ -84,3 +84,31 @@ h1{
 .blog-container{
     display: flex;
 }
+.form-container{
+    background-color: rgba(69, 69, 69, 0.222);
+    padding: 20px;
+    width: 80%;
+    margin-top: 50px;
+}
+.input-control{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+}
+.input-control label {
+    width: 15%;
+}
+.input-control input,
+.input-control textarea,
+.input-control select{
+    width: 80%;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+}
+.btn-control button{
+    padding: 5px;
+    border-radius: 5px;
+    background-color: rgb(171, 171, 171);
+    font-weight: bold;
+}
